@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Evidence archive & temporary files
+archive/*
+!archive/.gitkeep
+*.tmp
+
+# Generated forensic audit files (uncomment if you want to keep them local only)
+# archive_manifest.json
+# custody_log.csv
+# archive_report.json
+# archive_report.csv
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE / Editor folders
+.vscode/
+.idea/
